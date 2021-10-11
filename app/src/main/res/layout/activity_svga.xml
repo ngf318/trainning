@@ -4,12 +4,17 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.opensource.svgaplayer.SVGAScaleYImageView
+<!--    <com.opensource.svgaplayer.SVGAScaleYImageView
         android:id="@+id/svga_img"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:layout_centerInParent="true"
         app:autoPlay="true"
         app:loopCount="-1"
-        android:background="#000" />
+        android:background="#000" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </RelativeLayout>
